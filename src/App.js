@@ -9,7 +9,7 @@ export default class App extends Component{
         super();
         
         this.state = {
-            allTodos: [{ text: "This is React Project", key: 1591173026008 }, {text: "Tasks are not Save in DB", key: 1591173124099}],
+            allTodos: [{ text: "This is React Project", key: 1591173026008 }, {text: "Tasks are not Save in DB", key: 1591173124099}, { text: "New Task", key: 1591173026001 } ],
             currentTodo: {
                 text: '',
                 key: ''
